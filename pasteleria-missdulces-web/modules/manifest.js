@@ -1,0 +1,1 @@
+﻿window.FOTOS = ["person-hand-holding-slice-cake-chopping-board.webp", "front-view-sweet-bakery-goodies.webp", "crop-hand-decorating-muffin-with-raspberries.webp", "close-up-hands-holding-dessert.webp", "cheesecake-brownies-with-raspberry.webp", "appetizing-homemade-chocolate-cake-hands-woman-closeup.webp"];
