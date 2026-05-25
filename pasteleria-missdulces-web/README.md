@@ -79,9 +79,12 @@ pasteleria-missdulces-web/
 
 ### Añadir fotos a la galería
 
+Para que la web sea 100% estática y no requiera un servidor backend, se utiliza un pequeño script que funciona como "índice" de las imágenes:
+
 1. Copia las imágenes a `src/fotos/`
-2. Actualiza `modules/manifest.js` con los nombres de archivo
-3. ¡Listo!
+2. Ejecuta el script `actualizar-galeria.bat` (o simplemente actualiza `modules/manifest.js` manualmente con los nombres de los nuevos archivos).
+3. La página lee ese archivo JavaScript (`manifest.js`) que contiene un array `window.FOTOS` y se encarga de inyectar dinámicamente las imágenes en la sección de Galería cuando el cliente entra.
+4. ¡Listo! Así se mantiene la web ligera y sin base de datos.
 
 ---
 
