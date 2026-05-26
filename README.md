@@ -2,6 +2,14 @@
 
 # 🎂 Pastelería Miss Dulces
 
+---
+
+## 📸 Vista previa
+
+> *La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
+
+---
+
 **Landing page artesanal hecha con amor para mis padres** 🧁
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
@@ -95,12 +103,6 @@ Para que la web sea 100% estática y no requiera un servidor backend, se utiliza
 - **SEO optimizado** — Schema.org para negocios locales, Open Graph, sitemap
 - **WhatsApp directo** — Botón de contacto rápido con mensaje predefinido
 - **Sin cookies** — Solo `localStorage` para recordar el tema elegido
-
----
-
-## 📸 Vista previa
-
-> *La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
 
 ---
 
