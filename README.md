@@ -9,7 +9,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![Sin frameworks](https://img.shields.io/badge/Sin%20frameworks-Vanilla-c85c8a?style=for-the-badge)](https://developer.mozilla.org/es/)
 
-> *La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
+*La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
 
 </div>
 
