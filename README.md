@@ -2,20 +2,14 @@
 
 # 🎂 Pastelería Miss Dulces
 
----
-
-## 📸 Vista previa
-
-> *La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
-
----
-
 **Landing page artesanal hecha con amor para mis padres** 🧁
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![Sin frameworks](https://img.shields.io/badge/Sin%20frameworks-Vanilla-c85c8a?style=for-the-badge)](https://developer.mozilla.org/es/)
+
+> *La web está desplegada en:* **[pasteleriamissdulces.es](https://www.pasteleriamissdulces.es)**
 
 </div>
 
@@ -59,7 +53,6 @@ Proyecto 100% vanilla, sin instalaciones ni build steps:
 ```bash
 # No hay instalación. Simplemente abre el archivo:
 open index.html
-
 # O sirve localmente con cualquier servidor estático, por ejemplo:
 npx serve .
 ```
