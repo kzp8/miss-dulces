@@ -101,7 +101,7 @@ Para que la web sea 100% estática y no requiera un servidor backend, se utiliza
 
 <div align="center">
 
-Hecho con 🩷 por **[@kzp8](https://github.com/kzp8)** para los mejores pasteleros de Águilas
+Hecho con ❤️ por **[@kzp8](https://github.com/kzp8)** para los mejores pasteleros de Águilas
 
 *"Todo hecho con mimo, tradición y un toque de magia"*
 
