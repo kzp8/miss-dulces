@@ -720,7 +720,49 @@
     .whatsapp-cta p {
       font-size: 1.05rem;
       opacity: .9;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .cta-step {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 16px;
+      padding: 1.25rem 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    .cta-step:hover {
+      transform: translateY(-3px);
+    }
+
+    .cta-step-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .cta-step h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      color: #fff;
+    }
+
+    .cta-step p {
+      font-size: 0.88rem;
+      opacity: 0.92;
+      margin-bottom: 0;
+      line-height: 1.4;
     }
 
     footer {
@@ -1386,14 +1428,29 @@
   </section>
 
   <div class="whatsapp-cta">
-    <h2>¿Tienes algún pedido especial?</h2>
-    <p>Escríbenos directamente por WhatsApp y te ayudamos a crear el dulce perfecto para tu ocasión.</p>
-    <a href="https://wa.me/34678927989?text=Hola%20Miss%20Dulces%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido%20%F0%9F%8E%82"
-      target="_blank" rel="noopener" class="btn btn-whatsapp">
-      <svg class="icon" aria-hidden="true">
-        <use href="#icon-whatsapp"></use>
-      </svg>
-      Hablar por WhatsApp
+    <h2>Tu Tarta Artesanal a Medida</h2>
+    <p>Haz tu pedido en 3 pasos sencillos y rápidos:</p>
+
+    <div class="cta-steps">
+      <div class="cta-step">
+        <div class="cta-step-icon">📅</div>
+        <h3>1. Fecha y personas</h3>
+        <p>Elige el día de tu evento y comensales.</p>
+      </div>
+      <div class="cta-step">
+        <div class="cta-step-icon">🍰</div>
+        <h3>2. Sabores y diseño</h3>
+        <p>Personaliza bizcocho, relleno o tu idea.</p>
+      </div>
+      <div class="cta-step">
+        <div class="cta-step-icon">💬</div>
+        <h3>3. Confirmación directa</h3>
+        <p>Te contactamos por WhatsApp para cerrar los detalles.</p>
+      </div>
+    </div>
+
+    <a href="https://forms.pasteleriamissdulces.es/" target="_blank" rel="noopener" class="btn btn-white">
+      Rellenar Formulario de Pedido
     </a>
   </div>
 
