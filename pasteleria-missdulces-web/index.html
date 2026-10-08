@@ -709,6 +709,7 @@
       padding: 4rem 2rem;
       background: linear-gradient(135deg, var(--rosa) 0%, #a0386a 100%);
       color: #fff;
+      scroll-margin-top: 90px;
     }
 
     .whatsapp-cta h2 {
@@ -1050,16 +1051,48 @@
 
       /* WhatsApp CTA */
       .whatsapp-cta {
-        padding: 2.5rem 1.25rem;
+        padding: 2rem 1rem;
+        scroll-margin-top: 70px;
       }
 
       .whatsapp-cta h2 {
         font-size: 1.35rem;
+        margin-bottom: .35rem;
       }
 
       .whatsapp-cta p {
+        font-size: .88rem;
+        margin-bottom: 1rem;
+      }
+
+      .cta-steps {
+        gap: .5rem;
+        margin: 1rem auto 1.25rem;
+      }
+
+      .cta-step {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: .75rem;
+        padding: .6rem .85rem;
+        border-radius: 12px;
+      }
+
+      .cta-step-icon {
+        font-size: 1.4rem;
+        margin-bottom: 0;
+      }
+
+      .cta-step h3 {
         font-size: .9rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: .1rem;
+      }
+
+      .cta-step p {
+        font-size: .78rem;
+        margin-bottom: 0;
+        line-height: 1.25;
       }
 
       .btn-whatsapp {
@@ -1160,7 +1193,7 @@
       <h1>Endulzamos tus<br /><em>momentos especiales</em></h1>
       <p>Tartas personalizadas, dulces artesanales y mucho amor en cada creación.<br />Visítanos en el corazón de
         Águilas.</p>
-      <a href="#contacto" class="btn btn-white">Hacer un pedido</a>
+      <a href="#hacer-pedido" class="btn btn-white">Hacer un pedido</a>
       <a href="#quienes" class="btn btn-hero-sec"
         style="background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.4);">Conocernos</a>
     </div>
@@ -1427,7 +1460,7 @@
     </div>
   </section>
 
-  <div class="whatsapp-cta">
+  <div class="whatsapp-cta" id="hacer-pedido">
     <h2>Tu Tarta Artesanal a Medida</h2>
     <p>Haz tu pedido en 3 pasos sencillos y rápidos:</p>
 
